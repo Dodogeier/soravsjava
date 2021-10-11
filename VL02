@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class VL02 {
+
+    public static void main(String[] args) {
+        //Eingabe Nachname
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Geben Sie bitte ");
+        System.out.println("Ihren Nachnamen ein");
+        String nachname = sc.next();
+
+        //Eingabe Vorname
+        System.out.print("Geben Sie bitte ");
+        System.out.println("Ihren Vornamen ein");
+        String vorname = sc.next();
+
+        //Eingabe Matrikelnummer
+        System.out.print("Geben Sie bitte ");
+        System.out.println("Ihre Matrikelnummer ein");
+        String matrikelnummer = sc.next();
+
+        //Ausgabe Vorname
+        System.out.print("Ihr Vorname ist ");
+        System.out.println(vorname);
+
+        //Ausgabe Nachname
+        System.out.print("Ihr Nachname ist ");
+        System.out.println(nachname);
+
+        //Ausgabe Matrikelnummer
+        System.out.print("Ihre Matrikelnummer ist ");
+        System.out.println(matrikelnummer);
+    }
+
+}
